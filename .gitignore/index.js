@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 var prefix = ("*")
 
 bot.on('ready', function() {
-    bot.user.setActivity("Watch Waquante sur YT");
+    bot.user.setActivity("Watch Waquante on YT");
 });
 
 bot.login(process.env.TOKEN); 
