@@ -22,6 +22,18 @@ bot.on('message', msg => {
 });
 
 bot.on('message', msg => {
+  if (msg.content === 't moche') {
+    msg.reply('fuck');
+  }
+});
+
+bot.on('message', msg => {
+  if (msg.content === 'T moche') {
+    msg.reply('fuck');
+  }
+});
+
+bot.on('message', msg => {
   if (msg.content === 'Yo') {
     msg.reply('Bonjour!');
   }
